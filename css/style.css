@@ -147,6 +147,24 @@ a{
   transform: scale(1.02);
 }
 
+
+.pictures-small{
+  align-self: center;
+}
+
+.pictures-small img {
+  align-self: center;
+  flex-shrink: 0;
+  max-width: 30%;
+  max-height:30%;
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: 5px 50px;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+
 button:focus{
   outline:none !important;
 }
